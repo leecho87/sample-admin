@@ -4,7 +4,7 @@ import List from "components/main/List";
 import PostCode from "components/common/PostCode";
 
 const MainPage = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState<boolean>(false);
 
   return (
     <>

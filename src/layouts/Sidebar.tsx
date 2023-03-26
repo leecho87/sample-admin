@@ -33,7 +33,7 @@ const Wrapper = styled.article<{ width: number }>`
 `;
 
 const Sidebar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState<boolean>(true);
 
   const handleSidebarToggle = () => {
     window.innerWidth < 769 && setOpen(false);
